@@ -1,0 +1,10 @@
+    snr_db,comparison,config_a,config_b,accuracy_a,accuracy_b,improvement_percent,cohens_d,effect_size
+    -10,RIS benefit for semantic,semantic_with_ris,semantic_no_ris,92.45988954065594,28.477736018133683,224.67429813163707,32.24905318918482,Large
+    -10,Semantic benefit with RIS,semantic_with_ris,conventional_with_ris,92.45988954065594,91.13389438255005,1.4549967024779995,0.6683439995077007,Medium
+    -10,RIS benefit for conventional,conventional_with_ris,conventional_no_ris,91.13389438255005,15.860772591347411,474.5867287213151,37.94006257551155,Large
+    0,RIS benefit for semantic,semantic_with_ris,semantic_no_ris,99.052386438512,86.46998818837812,14.551173781500534,7.541679207904832,Large
+    0,Semantic benefit with RIS,semantic_with_ris,conventional_with_ris,99.052386438512,99.02242556583857,0.030256653987442986,0.023312713205080614,Negligible
+    0,RIS benefit for conventional,conventional_with_ris,conventional_no_ris,99.02242556583857,84.08695161516438,17.76194006773901,8.918595632817395,Large
+    10,RIS benefit for semantic,semantic_with_ris,semantic_no_ris,99.20410226551117,98.88578897549264,0.3218999345774566,0.24936122067104055,Small
+    10,Semantic benefit with RIS,semantic_with_ris,conventional_with_ris,99.20410226551117,99.20318235894719,0.0009272954174495801,0.0007762233454389081,Negligible
+    10,RIS benefit for conventional,conventional_with_ris,conventional_no_ris,99.20318235894719,98.82127939490438,0.38645822679208724,0.2954057234110499,Small

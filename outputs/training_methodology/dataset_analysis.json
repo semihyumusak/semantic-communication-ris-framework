@@ -1,0 +1,23 @@
+{
+  "hierarchical": {
+    "avg_entropy": 0.999227753890266,
+    "entropy_std": 0.001013286405990107,
+    "avg_segment_importance": "0.00038608015",
+    "avg_redundancy": null,
+    "sample_size": 100
+  },
+  "redundant": {
+    "avg_entropy": 0.9981304693531483,
+    "entropy_std": 0.002446914151543504,
+    "avg_segment_importance": null,
+    "avg_redundancy": "0.9519519",
+    "sample_size": 100
+  },
+  "random": {
+    "avg_entropy": 0.999227753890266,
+    "entropy_std": 0.001013286405990107,
+    "avg_segment_importance": null,
+    "avg_redundancy": null,
+    "sample_size": 100
+  }
+}

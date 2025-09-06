@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "name": "Synthetic Random Binary Sequences",
+    "description": "Randomly generated binary sequences for semantic communication testing",
+    "size": "Generated on-demand per experiment",
+    "sequence_length": 4000,
+    "preprocessing": "None - raw binary sequences used directly"
+  },
+  "model_architecture": {
+    "semantic_encoder": "Transformer-based (as mentioned in paper)",
+    "hidden_size": 128,
+    "num_attention_heads": 4,
+    "num_layers": 3,
+    "dropout_rate": 0.1,
+    "compression_mechanism": "Feature compression with configurable ratio"
+  },
+  "training_parameters": {
+    "note": "Current implementation uses simulated semantic processing",
+    "loss_function": "Composite loss (\u03b1=0.7 for reconstruction)",
+    "compression_ratio": 0.5,
+    "modulation_schemes": [
+      "QPSK",
+      "16-QAM"
+    ],
+    "channel_conditions": [
+      "AWGN",
+      "Rayleigh",
+      "Mixed",
+      "Doppler"
+    ]
+  },
+  "experimental_setup": {
+    "trials_per_configuration": 1000,
+    "statistical_confidence": "95%",
+    "significance_level": 0.05,
+    "random_seeds": "Unique seed per trial for reproducibility",
+    "ris_configurations": [
+      64,
+      128,
+      256
+    ]
+  },
+  "limitations": {
+    "current_implementation": "Uses simulated semantic features rather than trained neural networks",
+    "dataset": "Synthetic rather than real-world data",
+    "semantic_metrics": "Bit-level fidelity as proxy for semantic preservation"
+  }
+}

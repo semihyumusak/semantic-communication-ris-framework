@@ -1,0 +1,26 @@
+snr_db,comparison,config_a,config_b,mean_a,mean_b,mean_difference,percent_improvement,t_statistic,p_value,cohens_d,significant,effect_size
+-10,RIS benefit (conventional),conventional_coding_with_ris,conventional_coding_no_ris,0.8576379999999999,0.614044,0.24359399999999987,39.670447068939666,272.8934988382295,0.0,17.300946207428105,True,Large
+-10,RIS benefit (semantic),semantic_processing_with_ris,semantic_processing_no_ris,0.49963,0.49963,0.0,0.0,0.0,1.0,0.0,False,Negligible
+-10,Semantic benefit (no RIS),semantic_processing_no_ris,conventional_coding_no_ris,0.49963,0.614044,-0.11441400000000002,-18.63286670010618,-117.46740804897439,0.0,-7.447217747704696,True,Large
+-10,Semantic benefit (with RIS),semantic_processing_with_ris,conventional_coding_with_ris,0.49963,0.8576379999999999,-0.3580079999999999,-41.74348617948364,-400.8165489046916,0.0,-25.41103244001332,True,Large
+-10,Combined system benefit,semantic_processing_with_ris,conventional_coding_no_ris,0.49963,0.614044,-0.11441400000000002,-18.63286670010618,-117.46740804897439,0.0,-7.447217747704696,True,Large
+-5,RIS benefit (conventional),conventional_coding_with_ris,conventional_coding_no_ris,0.9767,0.696012,0.28068800000000005,40.3280403211439,373.36152550383673,0.0,23.670434422822883,True,Large
+-5,RIS benefit (semantic),semantic_processing_with_ris,semantic_processing_no_ris,0.49963,0.49963,0.0,0.0,0.0,1.0,0.0,False,Negligible
+-5,Semantic benefit (no RIS),semantic_processing_no_ris,conventional_coding_no_ris,0.49963,0.696012,-0.19638199999999995,-28.215318126698957,-199.8362706809949,0.0,-12.669252232330935,True,Large
+-5,Semantic benefit (with RIS),semantic_processing_with_ris,conventional_coding_with_ris,0.49963,0.9767,-0.47707,-48.845090611241936,-643.7800095778794,0.0,-40.81446924364783,True,Large
+-5,Combined system benefit,semantic_processing_with_ris,conventional_coding_no_ris,0.49963,0.696012,-0.19638199999999995,-28.215318126698957,-199.8362706809949,0.0,-12.669252232330935,True,Large
+0,RIS benefit (conventional),conventional_coding_with_ris,conventional_coding_no_ris,0.9999560000000001,0.8119339999999999,0.18802200000000013,23.157300962886165,276.8433697747315,0.0,17.55136076434981,True,Large
+0,RIS benefit (semantic),semantic_processing_with_ris,semantic_processing_no_ris,0.49963,0.49963,0.0,0.0,0.0,1.0,0.0,False,Negligible
+0,Semantic benefit (no RIS),semantic_processing_no_ris,conventional_coding_no_ris,0.49963,0.8119339999999999,-0.3123039999999999,-38.46421014515957,-322.8126498459646,0.0,-20.465728622479503,True,Large
+0,Semantic benefit (with RIS),semantic_processing_with_ris,conventional_coding_with_ris,0.49963,0.9999560000000001,-0.500326,-50.034801531267384,-725.946339624289,0.0,-46.02366353463118,True,Large
+0,Combined system benefit,semantic_processing_with_ris,conventional_coding_no_ris,0.49963,0.8119339999999999,-0.3123039999999999,-38.46421014515957,-322.8126498459646,0.0,-20.465728622479503,True,Large
+5,RIS benefit (conventional),conventional_coding_with_ris,conventional_coding_no_ris,1.0,0.935086,0.06491400000000003,6.942035278038601,0.0,1.0,9.270462050820772,False,Large
+5,RIS benefit (semantic),semantic_processing_with_ris,semantic_processing_no_ris,0.49963,0.49963,0.0,0.0,0.0,1.0,0.0,False,Negligible
+5,Semantic benefit (no RIS),semantic_processing_no_ris,conventional_coding_no_ris,0.49963,0.935086,-0.43545599999999995,-46.56855091403357,-531.2336642326541,0.0,-33.67923782571415,True,Large
+5,Semantic benefit (with RIS),semantic_processing_with_ris,conventional_coding_with_ris,0.49963,1.0,-0.50037,-50.037,0.0,1.0,-46.03532902571059,False,Large
+5,Combined system benefit,semantic_processing_with_ris,conventional_coding_no_ris,0.49963,0.935086,-0.43545599999999995,-46.56855091403357,-531.2336642326541,0.0,-33.67923782571415,True,Large
+10,RIS benefit (conventional),conventional_coding_with_ris,conventional_coding_no_ris,1.0,0.9984759999999999,0.0015240000000000808,0.15263261210084977,0.0,1.0,1.3328857019509102,False,Large
+10,RIS benefit (semantic),semantic_processing_with_ris,semantic_processing_no_ris,0.49963,0.49963,0.0,0.0,0.0,1.0,0.0,False,Negligible
+10,Semantic benefit (no RIS),semantic_processing_no_ris,conventional_coding_no_ris,0.49963,0.9984759999999999,-0.4988459999999999,-49.96074016801605,-719.9462913770392,0.0,-45.64327150473839,True,Large
+10,Semantic benefit (with RIS),semantic_processing_with_ris,conventional_coding_with_ris,0.49963,1.0,-0.50037,-50.037,0.0,1.0,-46.03532902571059,False,Large
+10,Combined system benefit,semantic_processing_with_ris,conventional_coding_no_ris,0.49963,0.9984759999999999,-0.4988459999999999,-49.96074016801605,-719.9462913770392,0.0,-45.64327150473839,True,Large
